@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f5dcc4;
+  color: #000;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #f5dcc4;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #3e3e3e;
+}
+
+.logo span {
+  color: #6b4e35;
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 40px;
+}
+
+.hero-text {
+  max-width: 45%;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero-text button {
+  background-color: #00714d;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.hero-image {
+  position: relative;
+  max-width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.stamp {
+  position: absolute;
+  top: -20px;
+  left: -40px;
+  background-color: #f5dcc4;
+  border-radius: 50%;
+  border: 2px solid #3e3e3e;
+  padding: 20px;
+  font-size: 0.7rem;
+  text-align: center;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+}
